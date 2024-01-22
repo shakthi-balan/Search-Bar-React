@@ -1,0 +1,61 @@
+
+*{
+  background-color: rgb(152, 197, 124);
+  box-sizing : border-box;
+  margin : 0px;
+  padding : 0px;
+  
+
+}
+
+.searchbar-container{
+  padding : 20px 20px;
+  width : 40%;
+  margin :  auto;
+  margin-top : 10vh;
+  background-color: white;
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+  font-size: larger;
+  border-radius: 10cm;
+  flex-wrap: wrap;
+  
+}      
+
+.searchBar{
+  background-color: transparent;
+  border: none;
+  cursor:default;
+  height: auto;
+}
+
+.chips{
+  
+  background-color: rgb(169, 205, 205);
+  border-radius: 10cm;
+  margin: 2px;
+  padding : 10px;
+  display: flex;
+
+}
+
+.chip-remove {
+  background:rgb(169, 205, 205);
+  border-color: rgb(169, 205, 205);
+  opacity: 50%;
+  align-self: center;
+  margin :2px;
+
+}
+
+.suggestion-container{
+  padding : 20px 20px;
+  width : 40%;
+  margin :  auto;
+  margin-top : 5px;
+  background-color: white;
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+  font-size: larger;
+  border-radius: 10cm;
+}
